@@ -1,0 +1,118 @@
+/*{
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+}
+
+.left {
+    width: 30%;
+}
+
+.right {
+    width: 70%;
+}
+row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+*/
+.foot{
+	padding-top: 300px;
+	text-align: center;
+}
+
+.sidenav{
+
+	height: auto; 
+    width: 400px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+
+}
+
+.main {
+    margin-left: 400px; /* Same as the width of the sidebar */
+    padding-top: 20px;
+    padding-right:200px;
+    padding-left:60px;
+    padding-bottom:60px;
+
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-width: 1000px) {
+    .sidenav {width: 0px;}
+    .sidenav h1 {font-size: 0px;}
+    .sidenav p {font-size: 0px;}
+    .main {margin-left: 0;}
+}
+
+
+h1 {
+    color: black;
+    text-align: left;
+    font-family: 'Proxima Nova Soft','Helvetica Neue';
+    font-size: 25px;
+    margin: 20px 0 0;
+}
+h2 {
+    color: black;
+    text-align: left;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-variant: Helvetica Neue;
+}
+h3 {
+    color: black;
+    text-align: left;
+    font-family: 'Proxima Nova Soft','Helvetica Neue';
+    font-size: 14px;
+    font-variant: Helvetica Neue;
+}
+
+h4{
+	text-align: justify;
+    text-justify: inter-word;
+	color: #267CB9;
+    text-align: center;
+    font-family: 'Proxima Nova Soft','Helvetica Neue';
+    font-size: 30px;
+    margin: 20px 0 0;
+    padding: 10px 0 0 10px;
+}
+
+h1, h2, h3 {
+    line-height: 1.1;
+    margin: 0 0 20px;
+    padding:60 px;
+}
+
+body{
+	word-wrap: break-word;
+	color:#727272;
+	font-family: 'Proxima Nova Soft','Helvetica Neue';
+	font-size: 14px;
+	padding: 50 px;
+	line-height:1.5;
+	text-align:justify;
+}
+
+
+	hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: auto;
+}
+
