@@ -39,6 +39,7 @@ row:after {
     left: 0;
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
+	adding-left:200px;
 
 }
 
