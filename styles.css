@@ -13,7 +13,7 @@
 }
 
 .top{
-background-color: light grey;
+background-color: #F8F8F8;
     height: 0px; 
     width: 0px; 
     top: 0; /* Stay at the top */
@@ -28,7 +28,7 @@ background-color: light grey;
 
 .sidenav{
 
-    background-color: light grey;
+    background-color: #F8F8F8;
     height: auto; 
     width: 32%; 
     position: fixed; 
