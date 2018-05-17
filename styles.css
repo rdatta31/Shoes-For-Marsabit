@@ -28,7 +28,7 @@ background-color: grey;
 
 .sidenav{
 
-    background-color: #F8F8F8;
+    background-color: grey;
     height: auto; 
     width: 32%; 
     position: fixed; 
@@ -56,7 +56,7 @@ background-color: grey;
 
 /* On smaller screens, where height is less than 800px, change the style of the sidebar (less padding and a smaller font size) */
 @media screen and (max-width: 800px) {
-    .sidenav {width: 0%;}
+    .sidenav {width: 0px;}
     .main {margin-left: auto;}
     .main {width: 100%};
     .main {padding-right: 10%;}
